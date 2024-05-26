@@ -1,5 +1,9 @@
-from PyThermalAnalysis.thermodynamicstate import ThermodynamicState
-from PyThermalAnalysis.exergyanalysis import ExergyAnalysis
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from PyThermalAnalysis.thermodynamics import ThermodynamicState 
+from PyThermalAnalysis.exergy import ExergyAnalysis
 
 # Define ambient conditions
 T0 = 298.15  # K

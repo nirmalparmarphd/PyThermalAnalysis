@@ -1,4 +1,4 @@
-from .thermodynamicstate import ThermodynamicState
-from .exergyanalysis import ExergyAnalysis
+from .thermodynamics import ThermodynamicState
+from .exergy import ExergyAnalysis
 
 __all__ = ["ThermodynamicState", "ExergyAnalysis"]
