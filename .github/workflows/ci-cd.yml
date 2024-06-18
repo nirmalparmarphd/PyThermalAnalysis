@@ -34,6 +34,7 @@ jobs:
       - name: Build and publish package
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
+          pip install wheel
           python setup.py sdist bdist_wheel
           twine upload --repository pypi dist/*
         env:
