@@ -4,7 +4,7 @@ setup(
     name="PyThermalAnalysis",
     version="0.1.0",
     author="Nirmal Parmar",
-    author_email="nirmalparmarphd.com",
+    author_email="nirmalparmarphd@gmail.com",
     description="A Python library for a basic exergy analysis in thermodynamic systems",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
