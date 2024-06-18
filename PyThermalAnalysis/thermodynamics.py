@@ -1,3 +1,6 @@
+## Thermodynamic analysis for given system
+## In short future going to add some more methods
+
 class ThermodynamicState:
     def __init__(self, temperature, pressure, specific_enthalpy, specific_entropy):
         self.temperature = temperature
