@@ -35,7 +35,7 @@ jobs:
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
           python setup.py sdist bdist_wheel
-          twine upload --verbose --repository pypi dist/* --skeep-existing
+          twine upload --verbose --repository --skip-existing pypi dist/* 
         env:
           PYPI_USERNAME: ${{ secrets.PYPI_USERNAME }}
           PYPI_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
