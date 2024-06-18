@@ -16,8 +16,5 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    install_requires=[
-        # List your library's dependencies here
-        # For example: 'numpy>=1.18.0',
-    ],
+    install_requires=['pandas', 'numpy'],
 )
